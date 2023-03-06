@@ -2,7 +2,7 @@
 
 ### Aplicação Simples de Realidade Aumentada Unity + Vuforia
 
-<p  align="justify"> A Unity e a Vuforia oferecem uma solução robusta para o desenvolvimento de aplicativos de Realidade Aumentada (AR), possibilitando que os desenvolvedores criem experiências impressionantes de AR para diversas aplicações.
+<p  align="justify"> A Unity e a Vuforia oferecem uma solução robusta para o desenvolvimento de aplicativos de Realidade Aumentada (AR), possibilitando que os desenvolvedores criem experiências impressionantes de AR para diversas aplicações..
 </p>
 
 <p  align="center">
@@ -11,12 +11,12 @@
 
 
 <p align="center">
-<img src="Img/vuforia-unity.png" width="460" height="300">
+<img src="imagens/vuforia-unity.png" width="460" height="300">
 </p>
 
 <!--GIF-->
 <p align="center">
-<img src="Img/Gif_1.gif" width="460" height="300">
+<img src="imagens/Gif_1.gif" width="460" height="300">
 </p>
 
 #### Para fazer uma aplicação como esta acima basta fazer o download do Vuforia Engine:
@@ -31,13 +31,13 @@
 
 <!--Target-->
 <p align="center">
-<img src="Img/Target.png">
+<img src="imagens/Target.png">
 </p>
 
 
 <!--Target-->
 <p align="center">
-<img src="Img/targetmod.png">
+<img src="imagens/targetmod.png">
 </p>
 
 > A Figura acima mostra o mapeamento para realidade aumentada.
@@ -48,7 +48,7 @@
 
 <!--Unity-1-->
 <p align="center">
-<img src="Img/unity-1.png">
+<img src="imagens/unity-1.png">
 </p>
 
 #### O script para rotacionar o Cubo
@@ -78,7 +78,7 @@ public class rotate : MonoBehaviour
 
 <!--Detalhes-1-->
 <p align="center">
-<img src="Img/Detalhes.png">
+<img src="imagens/Detalhes.png">
 </p>
 
 > O Unity é uma plataforma de desenvolvimento de jogos que também pode ser utilizada para desenvolver aplicativos de AR.
