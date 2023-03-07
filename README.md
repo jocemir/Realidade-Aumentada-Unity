@@ -6,7 +6,7 @@
 </p>
 
 <p  align="center">
-<img src="https://www.einstein.br/ensino/Style%20Library/PortalEnsino/images/carregando.gif">             
+<img src="https://gifs.eco.br/wp-content/uploads/2021/08/imagens-e-gifs-de-loading-4.gif">             
 <br>
 
 
@@ -83,14 +83,5 @@ public class rotate : MonoBehaviour
 
 > O Unity é uma plataforma de desenvolvimento de jogos que também pode ser utilizada para desenvolver aplicativos de AR.
 
-## Contribua :)
+## Feliz 2023 
 
-1 - Fork it
-
-2 - Cria sua feature branch (git checkout -b my-new-feature)
-
-3 - Commit suas mudanças (git commit -am "Added some feature")
-
-4 - Push na sua branch (git push origin my-new-feature)
-
-5 - Crie novo Pull Request
