@@ -14,20 +14,17 @@
 <img src="imagens/vuforia-unity.png" width="460" height="300">
 </p>
 
-<!--GIF-->
-<p align="center">
-<img src="imagens/Gif_1.gif" width="460" height="300">
-</p>
 
-#### Para fazer uma aplicação como esta acima basta fazer o download do Vuforia Engine:
+#### Para fazer uma aplicação como esta  basta fazer o download do Vuforia 
 
 >  O Vuforia Engine pode ser facilmente importado para o Unity
 
 [Download Vuforia](https://developer.vuforia.com/user/login?url=/downloads/sdk%3F_%3D1678117884)
 
 
->  É necessário criar uma conta e uma licença para registrar o seu Target (alvo).
-> Após isso faça o Download do seus banco de dados (target+features).
+> Será necessário criar uma conta e uma licença para registrar o seu Target que será o alvo
+
+> Em Seguida faça o Download do seu banco de dados (target+features)
 
 <!--Target-->
 <p align="center">
@@ -73,7 +70,8 @@ public class rotate : MonoBehaviour
 }
 ```
 
-#### Basta escolher o eixo de rotação e a módulo da posição nesse caso:
+#### Após escolha o eixo de rotação e o módulo da posição:>>
+
 > X = 50, Y = 50, Z = 50.
 
 <!--Detalhes-1-->
@@ -81,7 +79,60 @@ public class rotate : MonoBehaviour
 <img src="imagens/Detalhes.png">
 </p>
 
-> O Unity é uma plataforma de desenvolvimento de jogos que também pode ser utilizada para desenvolver aplicativos de AR.
+#### Agora vamos colocar movimento ao cubo inserindo o seguinte scritp:>>
 
-## Feliz 2023 
+```javascript
+using System.Collections;
+
+using System.Collections.Generic;
+
+using UnityEngine;
+
+public class Movimento : MonoBehaviour
+
+{
+
+    // Start is called before the first frame update
+
+    Vector3 Vec;
+
+    void Start()
+
+    {
+
+        
+
+    }
+
+
+
+    // Update is called once per frame
+
+    void Update()
+
+    {
+
+        Vec = transform.localPosition;
+
+        Vec.y += Input.GetAxis("Jump") * Time.deltaTime * 5;
+
+        Vec.x += Input.GetAxis("Horizontal") * Time.deltaTime * 5;
+
+        Vec.z += Input.GetAxis("Vertical") * Time.deltaTime * 5;
+
+        transform.localPosition = Vec;
+
+    }
+
+}
+```
+### O Unity
+
+<p  align="justify"> O Unity é uma plataforma de desenvolvimento de jogos e experiências interativas em 2D e 3D. Ele fornece uma variedade de ferramentas e recursos para criar jogos e experiências interativas, incluindo gráficos em tempo real, física simulada, áudio, animação, scripting e suporte para vários dispositivos e plataformas.
+</p>
+
+
+
+
+## Feliz 2023 :)
 
